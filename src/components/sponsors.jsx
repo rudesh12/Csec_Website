@@ -50,9 +50,13 @@ export default function Sponsors() {
 
           <div className="relative mx-auto flex h-[260px] sm:h-[300px] md:h-[340px] lg:h-[420px] w-full max-w-5xl flex-col items-center justify-center overflow-hidden rounded-[2rem] sm:rounded-[3rem] border-2 border-purple-500/40 px-4 sm:px-6 py-8 sm:py-10 shadow-[0_0_45px_rgba(168,85,247,0.25)] md:px-12">
             <div className="pointer-events-none absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(to right, #ffffff12 1px, transparent 1px), linear-gradient(to bottom, #ffffff12 1px, transparent 1px)', backgroundSize: '34px 34px' }} />
-         
 
-            <div className="relative z-10 mb-5 rounded-full border border-purple-300/35 bg-purple-500/15 p-5 shadow-[0_0_24px_rgba(168,85,247,0.35)] md:p-6">
+
+            <h3 className="relative z-10 text-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black uppercase tracking-tighter text-white mb-5">
+              Powered By
+            </h3>
+
+            <div className="relative z-10 rounded-full border border-purple-300/35 bg-purple-500/15 p-5 shadow-[0_0_24px_rgba(168,85,247,0.35)] md:p-6">
               <img
                 src="/sponsors/unstop.webp"
                 alt="Unstop"
@@ -61,10 +65,6 @@ export default function Sponsors() {
                 loading="lazy"
               />
             </div>
-
-            <h3 className="relative z-10 text-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black uppercase tracking-tighter text-white">
-              Powered By
-            </h3>
 
             <div className="relative z-10 my-4 h-[3px] w-20 rounded-full bg-purple-400 shadow-[0_0_20px_#a855f7]" />
 
